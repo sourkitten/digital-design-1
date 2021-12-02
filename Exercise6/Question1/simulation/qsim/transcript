@@ -1,0 +1,12 @@
+# do Question1.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Question1
+# 
+# Top level modules:
+# 	Question1
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Question1_vlg_sample_tst
+# -- Compiling module Question1_vlg_check_tst
+# ** Error: Question1.vt(60): near "1": syntax error, unexpected INTEGER NUMBER, expecting ')'
+# ** Error: c:/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+# Executing ONERROR command at macro ./Question1.do line 4

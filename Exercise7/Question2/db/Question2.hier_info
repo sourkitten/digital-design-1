@@ -1,0 +1,35 @@
+|Question2
+A0 <= 7476:7476.1Q
+E => Karnaugh:karnaugh.E
+CLK => 7476:7476.1CLK
+CLK => 7476:7476.2CLK
+CLR => inst.IN0
+A1 <= 7476:7476.2Q
+
+
+|Question2|7476:7476
+2QN <= 5.DB_MAX_OUTPUT_PORT_TYPE
+2PRN => 7.PRESET
+2CLRN => 7.ACLR
+2K => 7.IN0
+2J => 7.IN1
+2CLK => 7.CLK
+2Q <= 7.DB_MAX_OUTPUT_PORT_TYPE
+1QN <= 6.DB_MAX_OUTPUT_PORT_TYPE
+1PRN => 8.PRESET
+1CLRN => 8.ACLR
+1K => 8.IN0
+1J => 8.IN1
+1CLK => 8.CLK
+1Q <= 8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question2|Karnaugh:karnaugh
+J1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A0 => inst1.IN0
+E => inst1.IN1
+K1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+J0 <= <VCC>
+K0 <= <VCC>
+
+

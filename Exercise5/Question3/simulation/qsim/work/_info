@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\v4ngbz\Documents\Quartus\DD1\Exercise5\Question3\simulation\qsim
+vQuestion3
+Z1 !s100 fjmkQ9Y>Jo0SFRQ5]VmZ?3
+Z2 IJm@MzM1;>lCiV@ZmN77L60
+Z3 V64Cz1;;9Al61^[7i]cM?H0
+Z4 dC:\Users\v4ngbz\Documents\Quartus\DD1\Exercise5\Question3\simulation\qsim
+Z5 w1636938291
+Z6 8Question3.vo
+Z7 FQuestion3.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Question3.vo|
+Z10 o-work work -O0
+Z11 n@question3
+Z12 !s108 1636938293.387000
+Z13 !s107 Question3.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vQuestion3_vlg_check_tst
+Z14 !s100 d?P6[6I4m]L>SY;EMRk4U2
+Z15 I2ob3?g_8oM7X;7`ZWz0g:3
+Z16 VZDN@]X7>W>Q;?A3O<E;UO0
+R4
+Z17 w1636938290
+Z18 8Question3.vt
+Z19 FQuestion3.vt
+L0 63
+R8
+r1
+31
+Z20 !s108 1636938293.541000
+Z21 !s107 Question3.vt|
+Z22 !s90 -work|work|Question3.vt|
+R10
+Z23 n@question3_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vQuestion3_vlg_sample_tst
+Z24 !s100 >gAie5QRi?Qk<?d7[iIJc0
+Z25 Imf0FNjQMl36RDW]a?Ea1=3
+Z26 VVOfSTi36MHEH:B8ahNzkO0
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z27 n@question3_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vQuestion3_vlg_vec_tst
+Z28 !s100 76V<=1HZ45Th^cj?5cX_G2
+Z29 IWzh_SKO9COz:`0L]kf6P21
+Z30 VA5JTShkW`UA>I6`48dC763
+R4
+R17
+R18
+R19
+Z31 L0 212
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z32 n@question3_vlg_vec_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vQuestion3alt
+Z33 !s100 A7D_T21Mj4FXH9aaJJ@5T0
+Z34 IUe?joz9Ee1_>a?]b]@F4C2
+Z35 VHXPWM]Vh=nQ5C[A:0cFi^3
+R4
+Z36 w1637424045
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z37 n@question3alt
+!i10b 1
+!s85 0
+Z38 !s108 1637424046.142000
+R13
+!s101 -O0
+vQuestion3alt_vlg_check_tst
+!i10b 1
+Z39 !s100 SgNcaI1N>[_Cm]Q1JBNo_0
+Z40 IbMFRER<jMFQYi^agg9=jK0
+Z41 V^ZT^`_OJzEXi7JC^U]8YF3
+R4
+Z42 w1637424044
+R18
+R19
+L0 63
+R8
+r1
+!s85 0
+31
+Z43 !s108 1637424046.227000
+Z44 !s107 Question3.vt|
+R22
+!s101 -O0
+R10
+Z45 n@question3alt_vlg_check_tst
+vQuestion3alt_vlg_sample_tst
+!i10b 1
+Z46 !s100 ]N^T6XzA1]n^XaFldoJQ71
+Z47 IE0^GlI=c[9g@M9Zn@CNbd1
+Z48 VHB_S1I]h;YP=K7Mf[Hi:41
+R4
+R42
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R43
+R44
+R22
+!s101 -O0
+R10
+Z49 n@question3alt_vlg_sample_tst
+vQuestion3alt_vlg_vec_tst
+!i10b 1
+Z50 !s100 he:O4Ra:cWLEe_HBQR^dd3
+Z51 IAY<i2]H3D`kRQVZiK93`>3
+Z52 V3?Bg<akk7`8>>7SZY?^gO2
+R4
+R42
+R18
+R19
+R31
+R8
+r1
+!s85 0
+31
+R43
+R44
+R22
+!s101 -O0
+R10
+Z53 n@question3alt_vlg_vec_tst

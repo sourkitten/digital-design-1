@@ -1,0 +1,78 @@
+|Question2alt
+S2 <= Full_adder:inst3.S
+Cin => inst9.IN0
+Cin => inst7.IN0
+Cin => inst.IN0
+Cin => Full_adder:inst1.Cin
+Cin => inst10.IN0
+Cin => inst5.IN1
+B2 => inst9.IN1
+A2 => Full_adder:inst3.B
+B1 => inst7.IN1
+A1 => Full_adder:inst2.B
+B0 => inst.IN1
+A0 => Full_adder:inst1.B
+S1 <= Full_adder:inst2.S
+S3 <= Full_adder:inst4.S
+B3 => inst10.IN1
+A3 => Full_adder:inst4.B
+S0 <= Full_adder:inst1.S
+Cout <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question2alt|Full_adder:inst3
+S <= A_XOR_B_XOR_C.DB_MAX_OUTPUT_PORT_TYPE
+A => A_XOR_B.IN0
+A => ACin.IN0
+A => AB.IN0
+B => A_XOR_B.IN1
+B => BCin.IN0
+B => AB.IN1
+Cin => A_XOR_B_XOR_C.IN1
+Cin => ACin.IN1
+Cin => BCin.IN1
+Cout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question2alt|Full_adder:inst2
+S <= A_XOR_B_XOR_C.DB_MAX_OUTPUT_PORT_TYPE
+A => A_XOR_B.IN0
+A => ACin.IN0
+A => AB.IN0
+B => A_XOR_B.IN1
+B => BCin.IN0
+B => AB.IN1
+Cin => A_XOR_B_XOR_C.IN1
+Cin => ACin.IN1
+Cin => BCin.IN1
+Cout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question2alt|Full_adder:inst1
+S <= A_XOR_B_XOR_C.DB_MAX_OUTPUT_PORT_TYPE
+A => A_XOR_B.IN0
+A => ACin.IN0
+A => AB.IN0
+B => A_XOR_B.IN1
+B => BCin.IN0
+B => AB.IN1
+Cin => A_XOR_B_XOR_C.IN1
+Cin => ACin.IN1
+Cin => BCin.IN1
+Cout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question2alt|Full_adder:inst4
+S <= A_XOR_B_XOR_C.DB_MAX_OUTPUT_PORT_TYPE
+A => A_XOR_B.IN0
+A => ACin.IN0
+A => AB.IN0
+B => A_XOR_B.IN1
+B => BCin.IN0
+B => AB.IN1
+Cin => A_XOR_B_XOR_C.IN1
+Cin => ACin.IN1
+Cin => BCin.IN1
+Cout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+

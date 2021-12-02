@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\v4ngbz\Documents\Quartus\DD1\Exercise6\Question1p2\simulation\qsim
+vQuestion1p2
+Z1 I:3mc[PXJ_9b3TVQGj[:hO3
+Z2 VhdeZzef19KSW2R6@iHaI:0
+Z3 dC:\Users\v4ngbz\Documents\Quartus\DD1\Exercise6\Question1p2\simulation\qsim
+Z4 w1637430002
+Z5 8Question1p2.vo
+Z6 FQuestion1p2.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Question1p2.vo|
+Z9 o-work work -O0
+Z10 n@question1p2
+!i10b 1
+Z11 !s100 4=BYE>R0U<fBYAR3Q3`PR0
+!s85 0
+Z12 !s108 1637430003.556000
+Z13 !s107 Question1p2.vo|
+!s101 -O0
+vQuestion1p2_vlg_sample_tst
+!i10b 1
+Z14 !s100 mdz0>goobL7<4Cc1KH1Og1
+Z15 Ij[_c9Jihe7LL`LWQcZ78b2
+Z16 VVEkTP0>N5QiP^:onlLZ=^1
+R3
+w1637430001
+Z17 8Question1p2.vt
+Z18 FQuestion1p2.vt
+L0 29
+R7
+r1
+!s85 0
+31
+!s108 1637430003.644000
+!s107 Question1p2.vt|
+Z19 !s90 -work|work|Question1p2.vt|
+!s101 -O0
+R9
+Z20 n@question1p2_vlg_sample_tst

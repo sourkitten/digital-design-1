@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/v4ngbz/Documents/Quartus/DD1/Exercise3/Question1/Question1.bdf
+source_file = 1, C:/Users/v4ngbz/Documents/Quartus/DD1/Exercise3/Question1/Question1.vwf
+source_file = 1, C:/Users/v4ngbz/Documents/Quartus/DD1/Exercise3/Question1/db/Question1.cbx.xml
+design_name = Question1
+instance = comp, \A~I , A, Question1, 1
+instance = comp, \B~I , B, Question1, 1
+instance = comp, \C~I , C, Question1, 1
+instance = comp, \D~I , D, Question1, 1
+instance = comp, \W~I , W, Question1, 1
+instance = comp, \X~I , X, Question1, 1
+instance = comp, \Y~I , Y, Question1, 1
+instance = comp, \Z~I , Z, Question1, 1

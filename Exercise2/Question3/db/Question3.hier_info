@@ -1,0 +1,9 @@
+|Question3
+F <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D => inst2.IN0
+C => inst2.IN1
+B => inst.IN0
+A => inst.IN1
+NOT_F <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+

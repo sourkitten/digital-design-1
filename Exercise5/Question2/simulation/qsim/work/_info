@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\v4ngbz\Documents\Quartus\DD1\Exercise5\Question2\simulation\qsim
+vQuestion2
+Z1 !s100 hO0S6a]2LoGJck96;Pbz20
+Z2 I>3]E;JzdbZ>F^hR;WCRc22
+Z3 VU5An4jz3mB`3W7I]?LV8f1
+Z4 dC:\Users\v4ngbz\Documents\Quartus\DD1\Exercise5\Question2\simulation\qsim
+Z5 w1636938197
+Z6 8Question2.vo
+Z7 FQuestion2.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Question2.vo|
+Z10 o-work work -O0
+Z11 n@question2
+Z12 !s108 1636938199.427000
+Z13 !s107 Question2.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vQuestion2_vlg_check_tst
+Z14 !s100 R9XQbT4e5U[XiBRYk3:6d2
+Z15 IZdf4]7`4M>fA1[YXVoRG32
+Z16 V8665GL=0oJKhJof5E=VNP0
+R4
+Z17 w1636938196
+Z18 8Question2.vt
+Z19 FQuestion2.vt
+L0 61
+R8
+r1
+31
+Z20 !s108 1636938199.596000
+Z21 !s107 Question2.vt|
+Z22 !s90 -work|work|Question2.vt|
+R10
+Z23 n@question2_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vQuestion2_vlg_sample_tst
+Z24 !s100 <NM4IoZS38G?5=oD>3b530
+Z25 Ia[=KHdF_jUWC^:PWX__JZ2
+Z26 Veb`C6n6?F6>oE[h_hWiR]1
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z27 n@question2_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vQuestion2_vlg_vec_tst
+Z28 !s100 GZO9C`zzJO3nf=<a@6e_]1
+Z29 IW=fo5kaCQg5nTFeYX;ogF2
+Z30 V3nUnhX853VZ4aSojU`kjF0
+R4
+R17
+R18
+R19
+Z31 L0 291
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z32 n@question2_vlg_vec_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vQuestion2alt
+Z33 Id5_Bg1c_O[LO4?IzCgiHJ1
+Z34 VFFfo3>HzH;0ED8n`n6Ua02
+R4
+Z35 w1637425574
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z36 n@question2alt
+!i10b 1
+Z37 !s100 b5<]4kIBh=3hJI<k67b`Q3
+!s85 0
+Z38 !s108 1637425575.522000
+R13
+!s101 -O0
+vQuestion2alt_vlg_check_tst
+!i10b 1
+!s100 A0jDY>ENLSaMGP:k`@L3K3
+I9LQZ_k3M1NP_?ePP81;?;0
+V]62QYlC4Ma71RIIz^LbE>2
+R4
+Z39 w1637425573
+R18
+R19
+L0 61
+R8
+r1
+!s85 0
+31
+Z40 !s108 1637425575.612000
+Z41 !s107 Question2.vt|
+R22
+!s101 -O0
+R10
+n@question2alt_vlg_check_tst
+vQuestion2alt_vlg_sample_tst
+!i10b 1
+!s100 Uc<P_8Cej=8VWJhi[VbKX2
+IfARQ2NRc7^:TfWWk`=L>`2
+Vf20[6=>oG1lR9XOF3634d2
+R4
+R39
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R40
+R41
+R22
+!s101 -O0
+R10
+n@question2alt_vlg_sample_tst
+vQuestion2alt_vlg_vec_tst
+!i10b 1
+!s100 bkRF_YPQIRUNGBGi;0iWG2
+I3QW8QVm]P7MN?4gdh=DXa2
+Vf6QdQadM1n_=onNgA9HfG1
+R4
+R39
+R18
+R19
+R31
+R8
+r1
+!s85 0
+31
+R40
+R41
+R22
+!s101 -O0
+R10
+n@question2alt_vlg_vec_tst

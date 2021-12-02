@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/v4ngbz/Documents/Quartus/DD1/Exercise6/Question2p2/Question2p2.bdf
+source_file = 1, C:/Users/v4ngbz/Documents/Quartus/DD1/Exercise6/Question2p2/Question2p2.vwf
+source_file = 1, C:/Users/v4ngbz/Documents/Quartus/DD1/Exercise6/Question2p2/db/Question2p2.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/others/maxplus2/74151.tdf
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/megafunctions/aglobal.inc
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/others/maxplus2/f74151.bdf
+design_name = Question2p2
+instance = comp, \X~I , X, Question2p2, 1
+instance = comp, \Z~I , Z, Question2p2, 1
+instance = comp, \W~I , W, Question2p2, 1
+instance = comp, \Y~I , Y, Question2p2, 1
+instance = comp, \inst|sub|81~0 , inst|sub|81~0, Question2p2, 1
+instance = comp, \F~I , F, Question2p2, 1

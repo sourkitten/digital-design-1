@@ -1,0 +1,60 @@
+|Question2alt
+C0 <= <GND>
+C2 <= HA:inst2.S
+A0 => HA:inst2.A
+A0 => C1.DATAIN
+A1 => HA:inst2.B
+A1 => HA:inst5.B
+C3 <= HA:inst6.S
+A2 => HA:inst6.B
+A2 => HA:inst7.B
+C4 <= HA:inst7.S
+C1 <= A0.DB_MAX_OUTPUT_PORT_TYPE
+C5 <= HA:inst7.C
+
+
+|Question2alt|HA:inst2
+S <= A_XOR_B.DB_MAX_OUTPUT_PORT_TYPE
+A => A_XOR_B.IN0
+A => A_AND_B.IN0
+B => A_XOR_B.IN1
+B => A_AND_B.IN1
+C <= A_AND_B.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question2alt|HA:inst6
+S <= A_XOR_B.DB_MAX_OUTPUT_PORT_TYPE
+A => A_XOR_B.IN0
+A => A_AND_B.IN0
+B => A_XOR_B.IN1
+B => A_AND_B.IN1
+C <= A_AND_B.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question2alt|HA:inst5
+S <= A_XOR_B.DB_MAX_OUTPUT_PORT_TYPE
+A => A_XOR_B.IN0
+A => A_AND_B.IN0
+B => A_XOR_B.IN1
+B => A_AND_B.IN1
+C <= A_AND_B.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question2alt|HA:inst7
+S <= A_XOR_B.DB_MAX_OUTPUT_PORT_TYPE
+A => A_XOR_B.IN0
+A => A_AND_B.IN0
+B => A_XOR_B.IN1
+B => A_AND_B.IN1
+C <= A_AND_B.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question2alt|HA:inst8
+S <= A_XOR_B.DB_MAX_OUTPUT_PORT_TYPE
+A => A_XOR_B.IN0
+A => A_AND_B.IN0
+B => A_XOR_B.IN1
+B => A_AND_B.IN1
+C <= A_AND_B.DB_MAX_OUTPUT_PORT_TYPE
+
+

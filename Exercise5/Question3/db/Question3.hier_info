@@ -1,0 +1,14 @@
+|Question3alt
+L <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+A0 => inst5.IN0
+A0 => inst2.IN1
+B0 => inst6.IN1
+B0 => inst2.IN0
+B1 => inst3.IN0
+B1 => inst1.IN1
+A1 => inst3.IN1
+A1 => inst.IN0
+G <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+E <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+
+
