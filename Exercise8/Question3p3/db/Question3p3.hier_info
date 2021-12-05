@@ -1,0 +1,68 @@
+|Question3p3
+A0 <= Question3:inst.A0
+CLR => inst6.IN0
+CLR => Question3:inst.CLR
+CLK => Question3:inst.CLK
+A1 <= Question3:inst.A1
+RCO <= Question3:inst.RCO
+A2 <= Question3:inst.A2
+A3 <= Question3:inst.A3
+
+
+|Question3p3|Question3:inst
+A0 <= 7476:A1A0.1Q
+PT => ptldn.IN0
+LD => ldn.IN0
+A0P => inst6.IN0
+A0P => a0pn.IN0
+A1P => inst8.IN0
+A1P => a1pn.IN0
+CLK => 7476:A1A0.1CLK
+CLK => 7476:A1A0.2CLK
+CLK => 7476:A3A2.1CLK
+CLK => 7476:A3A2.2CLK
+CLR => inst.IN0
+A1 <= 7476:A1A0.2Q
+A2 <= 7476:A3A2.1Q
+A2P => inst10.IN0
+A2P => a2pn.IN0
+A3P => inst12.IN0
+A3P => a3pn.IN0
+A3 <= 7476:A3A2.2Q
+RCO <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question3p3|Question3:inst|7476:A1A0
+2QN <= 5.DB_MAX_OUTPUT_PORT_TYPE
+2PRN => 7.PRESET
+2CLRN => 7.ACLR
+2K => 7.IN0
+2J => 7.IN1
+2CLK => 7.CLK
+2Q <= 7.DB_MAX_OUTPUT_PORT_TYPE
+1QN <= 6.DB_MAX_OUTPUT_PORT_TYPE
+1PRN => 8.PRESET
+1CLRN => 8.ACLR
+1K => 8.IN0
+1J => 8.IN1
+1CLK => 8.CLK
+1Q <= 8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question3p3|Question3:inst|7476:A3A2
+2QN <= 5.DB_MAX_OUTPUT_PORT_TYPE
+2PRN => 7.PRESET
+2CLRN => 7.ACLR
+2K => 7.IN0
+2J => 7.IN1
+2CLK => 7.CLK
+2Q <= 7.DB_MAX_OUTPUT_PORT_TYPE
+1QN <= 6.DB_MAX_OUTPUT_PORT_TYPE
+1PRN => 8.PRESET
+1CLRN => 8.ACLR
+1K => 8.IN0
+1J => 8.IN1
+1CLK => 8.CLK
+1Q <= 8.DB_MAX_OUTPUT_PORT_TYPE
+
+
