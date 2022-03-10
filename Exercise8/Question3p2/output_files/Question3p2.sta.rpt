@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for Question3p2
-Sun Dec 05 15:18:42 2021
+Tue Dec 07 15:03:46 2021
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -457,7 +457,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sun Dec 05 15:18:39 2021
+    Info: Processing started: Tue Dec 07 15:03:44 2021
 Info: Command: quartus_sta Question3p2 -c Question3p2
 Info: qsta_default_script.tcl version: #1
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -506,7 +506,7 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
     Info: Peak virtual memory: 4535 megabytes
-    Info: Processing ended: Sun Dec 05 15:18:41 2021
+    Info: Processing ended: Tue Dec 07 15:03:46 2021
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 

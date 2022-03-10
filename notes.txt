@@ -1,0 +1,8 @@
+Κάθε ελαχιστόρος είναι το συµπλήρωµα του αντίστοιχου µεγιστόρου και
+αντίστροφα, π.χ. m0=x΄y΄z΄, M0=x+y+z
+
+Two's complement is one's complement and add 1
+Eg.
+Original  	  00001100
+One's complement  11110011
+Two's complement  11110100 (=11110011 + 00000001)

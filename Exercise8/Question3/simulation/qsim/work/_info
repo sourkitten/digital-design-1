@@ -8,7 +8,7 @@ Z1 !s100 G@ZL1A;L9TeI3B92e60NK0
 Z2 I:715YK9z<NYI^i6;`2]`U0
 Z3 VT_?9dgObh@2hFAan?PA]D2
 Z4 dC:\Users\v4ngbz\Documents\Quartus\DD1\Exercise8\Question3\simulation\qsim
-Z5 w1638708370
+Z5 w1638881759
 Z6 8Question3.vo
 Z7 FQuestion3.vo
 L0 31
@@ -20,7 +20,7 @@ Z10 o-work work -O0
 Z11 n@question3
 !i10b 1
 !s85 0
-Z12 !s108 1638708372.734000
+Z12 !s108 1638881761.179000
 Z13 !s107 Question3.vo|
 !s101 -O0
 vQuestion3_vlg_check_tst
@@ -29,7 +29,7 @@ Z14 !s100 oC6:anmXMlN:<7i:4iF4[3
 Z15 IJSNNNLN0d?R@i[KVzfE=I1
 Z16 V87ibG`cRhMIKik^l3WBVc1
 R4
-Z17 w1638708368
+Z17 w1638881758
 Z18 8Question3.vt
 Z19 FQuestion3.vt
 L0 71
@@ -37,7 +37,7 @@ R8
 r1
 !s85 0
 31
-Z20 !s108 1638708372.901000
+Z20 !s108 1638881761.342000
 Z21 !s107 Question3.vt|
 Z22 !s90 -work|work|Question3.vt|
 !s101 -O0

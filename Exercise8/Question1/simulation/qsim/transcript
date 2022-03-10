@@ -10,24 +10,7 @@
 # -- Compiling module Question1_vlg_sample_tst
 # -- Compiling module Question1_vlg_check_tst
 # -- Compiling module Question1_vlg_vec_tst
+# ** Error: Question1.vt(391): (vlog-2110) Illegal reference to net "SOUT".
 # 
-# Top level modules:
-# 	Question1_vlg_vec_tst
-# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.Question1_vlg_vec_tst 
-# Loading work.Question1_vlg_vec_tst
-# Loading work.Question1
-# Loading cycloneii_ver.cycloneii_io
-# Loading cycloneii_ver.cycloneii_mux21
-# Loading cycloneii_ver.cycloneii_dffe
-# Loading cycloneii_ver.cycloneii_asynch_io
-# Loading cycloneii_ver.cycloneii_clkctrl
-# Loading cycloneii_ver.cycloneii_mux41
-# Loading cycloneii_ver.cycloneii_ena_reg
-# Loading cycloneii_ver.cycloneii_lcell_comb
-# Loading cycloneii_ver.cycloneii_lcell_ff
-# Loading work.Question1_vlg_sample_tst
-# Loading work.Question1_vlg_check_tst
-# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
-# Simulation passed !
-# ** Note: $finish    : Question1.vt(243)
-#    Time: 600 ns  Iteration: 0  Instance: /Question1_vlg_vec_tst/tb_out
+# ** Error: c:/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+# Executing ONERROR command at macro ./Question1.do line 4

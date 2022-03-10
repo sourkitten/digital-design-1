@@ -182,7 +182,7 @@ SIGNAL("Question3p3_vlg_vec_tst|i1|CLK~combout")
 	PARENT = "";
 }
 
-SIGNAL("Question3p3_vlg_vec_tst|i1|CLR~combout")
+SIGNAL("Question3p3_vlg_vec_tst|i1|CLK~clkctrl_outclk")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -193,6 +193,26 @@ SIGNAL("Question3p3_vlg_vec_tst|i1|CLR~combout")
 }
 
 SIGNAL("Question3p3_vlg_vec_tst|i1|inst|A1A0|8~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Question3p3_vlg_vec_tst|i1|CLR~combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Question3p3_vlg_vec_tst|i1|CLR~clkctrl_outclk")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -570,13 +590,51 @@ TRANSITION_LIST("Question3p3_vlg_vec_tst|i1|CLK~combout")
 	}
 }
 
-TRANSITION_LIST("Question3p3_vlg_vec_tst|i1|CLR~combout")
+TRANSITION_LIST("Question3p3_vlg_vec_tst|i1|CLK~clkctrl_outclk")
 {
 	NODE
 	{
 		REPEAT = 1;
+		LEVEL 0 FOR 25.0;
 		LEVEL 1 FOR 25.0;
-		LEVEL 0 FOR 975.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 25.0;
 	}
 }
 
@@ -606,6 +664,26 @@ TRANSITION_LIST("Question3p3_vlg_vec_tst|i1|inst|A1A0|8~0_combout")
 		LEVEL 0 FOR 50.0;
 		LEVEL 1 FOR 50.0;
 		LEVEL 0 FOR 25.0;
+	}
+}
+
+TRANSITION_LIST("Question3p3_vlg_vec_tst|i1|CLR~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 975.0;
+	}
+}
+
+TRANSITION_LIST("Question3p3_vlg_vec_tst|i1|CLR~clkctrl_outclk")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 975.0;
 	}
 }
 
@@ -879,7 +957,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Question3p3_vlg_vec_tst|i1|CLR~combout";
+	CHANNEL = "Question3p3_vlg_vec_tst|i1|CLK~clkctrl_outclk";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 15;
@@ -897,7 +975,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Question3p3_vlg_vec_tst|i1|inst|A1A0|8~regout";
+	CHANNEL = "Question3p3_vlg_vec_tst|i1|CLR~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 17;
@@ -906,7 +984,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Question3p3_vlg_vec_tst|i1|inst|A1A0|7~0_combout";
+	CHANNEL = "Question3p3_vlg_vec_tst|i1|CLR~clkctrl_outclk";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 18;
@@ -915,7 +993,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Question3p3_vlg_vec_tst|i1|inst|A1A0|7~regout";
+	CHANNEL = "Question3p3_vlg_vec_tst|i1|inst|A1A0|8~regout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 19;
@@ -924,7 +1002,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Question3p3_vlg_vec_tst|i1|inst|A3A2|8~0_combout";
+	CHANNEL = "Question3p3_vlg_vec_tst|i1|inst|A1A0|7~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 20;
@@ -933,7 +1011,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Question3p3_vlg_vec_tst|i1|inst|A3A2|7~0_combout";
+	CHANNEL = "Question3p3_vlg_vec_tst|i1|inst|A1A0|7~regout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 21;
@@ -942,7 +1020,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Question3p3_vlg_vec_tst|i1|inst|A3A2|7~regout";
+	CHANNEL = "Question3p3_vlg_vec_tst|i1|inst|A3A2|8~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 22;
@@ -951,7 +1029,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Question3p3_vlg_vec_tst|i1|inst|A3A2|8~1_combout";
+	CHANNEL = "Question3p3_vlg_vec_tst|i1|inst|A3A2|7~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 23;
@@ -960,10 +1038,28 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Question3p3_vlg_vec_tst|i1|inst|A3A2|8~regout";
+	CHANNEL = "Question3p3_vlg_vec_tst|i1|inst|A3A2|7~regout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 24;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Question3p3_vlg_vec_tst|i1|inst|A3A2|8~1_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 25;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Question3p3_vlg_vec_tst|i1|inst|A3A2|8~regout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 26;
 	TREE_LEVEL = 0;
 }
 ;

@@ -10,6 +10,7 @@ entity Question1_vlg_sample_tst is
         I3              : in     vl_logic;
         S1              : in     vl_logic;
         S2              : in     vl_logic;
+        SIN             : in     vl_logic;
         sampler_tx      : out    vl_logic
     );
 end Question1_vlg_sample_tst;

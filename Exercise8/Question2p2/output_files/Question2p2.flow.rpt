@@ -1,5 +1,5 @@
 Flow report for Question2p2
-Thu Dec 02 21:17:18 2021
+Tue Dec 07 15:06:15 2021
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Thu Dec 02 21:17:18 2021           ;
+; Flow Status                        ; Successful - Tue Dec 07 15:06:15 2021           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; Question2p2                                     ;
 ; Top-level Entity Name              ; Question2p2                                     ;
@@ -98,7 +98,9 @@ applicable agreement for further details.
 ; Assembler                 ; 00:00:05     ; 1.0                     ; 4551 MB             ; 00:00:05                           ;
 ; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4535 MB             ; 00:00:02                           ;
 ; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4507 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:21     ; --                      ; --                  ; 00:00:22                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4515 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4515 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:23     ; --                      ; --                  ; 00:00:24                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -112,6 +114,8 @@ applicable agreement for further details.
 ; Assembler                 ; snowflake        ; Windows 7 ; 6.2        ; x86_64         ;
 ; TimeQuest Timing Analyzer ; snowflake        ; Windows 7 ; 6.2        ; x86_64         ;
 ; EDA Netlist Writer        ; snowflake        ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; snowflake        ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; snowflake        ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
@@ -123,6 +127,8 @@ quartus_fit --read_settings_files=off --write_settings_files=off Question2p2 -c 
 quartus_asm --read_settings_files=off --write_settings_files=off Question2p2 -c Question2p2
 quartus_sta Question2p2 -c Question2p2
 quartus_eda --read_settings_files=off --write_settings_files=off Question2p2 -c Question2p2
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog Question2p2 -c Question2p2 --vector_source=C:/Users/v4ngbz/Documents/Quartus/DD1/Exercise8/Question2p2/Question2p2.vwf --testbench_file=./simulation/qsim/Question2p2.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog Question2p2 -c Question2p2
 
 
 

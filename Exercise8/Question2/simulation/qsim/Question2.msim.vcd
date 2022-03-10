@@ -3,7 +3,7 @@ $comment
 		vcd file Question2.msim.vcd -direction
 $end
 $date
-	Thu Dec 02 21:28:14 2021
+	Tue Dec 07 15:10:50 2021
 $end
 $version
 	ModelSim Version 10.1d

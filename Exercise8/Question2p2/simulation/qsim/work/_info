@@ -4,82 +4,82 @@ K3
 cModel Technology
 Z0 dC:\Users\v4ngbz\Documents\Quartus\DD1\Exercise8\Question2p2\simulation\qsim
 vQuestion2p2
-Z1 I`8IRiFTRZ>eFKA1kgT=Me0
-Z2 Ve]JH4MEdL]CN_M2@0;o?f2
-Z3 dC:\Users\v4ngbz\Documents\Quartus\DD1\Exercise8\Question2p2\simulation\qsim
-Z4 w1638471990
-Z5 8Question2p2.vo
-Z6 FQuestion2p2.vo
+Z1 !s100 OOBKIKWXgAjJbcKMaFn070
+Z2 I`8IRiFTRZ>eFKA1kgT=Me0
+Z3 Ve]JH4MEdL]CN_M2@0;o?f2
+Z4 dC:\Users\v4ngbz\Documents\Quartus\DD1\Exercise8\Question2p2\simulation\qsim
+Z5 w1638882375
+Z6 8Question2p2.vo
+Z7 FQuestion2p2.vo
 L0 31
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 !s90 -work|work|Question2p2.vo|
-Z9 o-work work -O0
-Z10 n@question2p2
+Z9 !s90 -work|work|Question2p2.vo|
+Z10 o-work work -O0
+Z11 n@question2p2
 !i10b 1
-Z11 !s100 OOBKIKWXgAjJbcKMaFn070
 !s85 0
-Z12 !s108 1638471992.358000
+Z12 !s108 1638882377.071000
 Z13 !s107 Question2p2.vo|
 !s101 -O0
 vQuestion2p2_vlg_check_tst
 !i10b 1
-!s100 WMSBZI8K`Kj8N3Q483BDe1
-IzEhB;f2VBIJMkO5D3a6IE0
-Z14 V]fZ6IAJ3eAPNlQ@`D8KZ41
-R3
-Z15 w1638471989
-Z16 8Question2p2.vt
-Z17 FQuestion2p2.vt
+Z14 !s100 WMSBZI8K`Kj8N3Q483BDe1
+Z15 IzEhB;f2VBIJMkO5D3a6IE0
+Z16 V]fZ6IAJ3eAPNlQ@`D8KZ41
+R4
+Z17 w1638882374
+Z18 8Question2p2.vt
+Z19 FQuestion2p2.vt
 L0 57
-R7
+R8
 r1
 !s85 0
 31
-Z18 !s108 1638471992.491000
-Z19 !s107 Question2p2.vt|
-Z20 !s90 -work|work|Question2p2.vt|
+Z20 !s108 1638882377.216000
+Z21 !s107 Question2p2.vt|
+Z22 !s90 -work|work|Question2p2.vt|
 !s101 -O0
-R9
-Z21 n@question2p2_vlg_check_tst
+R10
+Z23 n@question2p2_vlg_check_tst
 vQuestion2p2_vlg_sample_tst
 !i10b 1
-!s100 2`kSkXbNjkzdjM[IZJ1Mn3
-I0TB_lfU@BB:mWV2k^Jdn32
-VZRc<ZdS4T9?=gVEzZ86fP0
-R3
-R15
-R16
+Z24 !s100 2`kSkXbNjkzdjM[IZJ1Mn3
+Z25 I0TB_lfU@BB:mWV2k^Jdn32
+Z26 VZRc<ZdS4T9?=gVEzZ86fP0
+R4
 R17
+R18
+R19
 L0 29
-R7
+R8
 r1
 !s85 0
 31
-R18
-R19
 R20
+R21
+R22
 !s101 -O0
-R9
-Z22 n@question2p2_vlg_sample_tst
+R10
+Z27 n@question2p2_vlg_sample_tst
 vQuestion2p2_vlg_vec_tst
 !i10b 1
-!s100 S;oLG;:Q0=7E?g:e;YnYb0
-I_Tm9?GOo5AkcD7=aQ;Ua]2
-Z23 VLcRz2Jj2eYSG>kEM0_ldE1
-R3
-R15
-R16
+Z28 !s100 S;oLG;:Q0=7E?g:e;YnYb0
+Z29 I_Tm9?GOo5AkcD7=aQ;Ua]2
+Z30 VLcRz2Jj2eYSG>kEM0_ldE1
+R4
 R17
-L0 260
-R7
+R18
+R19
+Z31 L0 260
+R8
 r1
 !s85 0
 31
-R18
-R19
 R20
+R21
+R22
 !s101 -O0
-R9
-Z24 n@question2p2_vlg_vec_tst
+R10
+Z32 n@question2p2_vlg_vec_tst

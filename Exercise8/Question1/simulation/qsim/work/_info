@@ -4,82 +4,82 @@ K3
 cModel Technology
 Z0 dC:\Users\v4ngbz\Documents\Quartus\DD1\Exercise8\Question1\simulation\qsim
 vQuestion1
-Z1 !s100 _26fbKVccS[FG0lHoh3HQ0
-Z2 I4M8<nJ[dVoVl[@<RiSdg33
-Z3 V^92^PG6V:=gPHAjSk23L82
-Z4 dC:\Users\v4ngbz\Documents\Quartus\DD1\Exercise8\Question1\simulation\qsim
-Z5 w1638467430
-Z6 8Question1.vo
-Z7 FQuestion1.vo
+Z1 ICLA6Cb@?bnzEil:mH:@X:2
+Z2 V7FD=X:ZT[O6n^Nl>E@WPX3
+Z3 dC:\Users\v4ngbz\Documents\Quartus\DD1\Exercise8\Question1\simulation\qsim
+Z4 w1638897687
+Z5 8Question1.vo
+Z6 FQuestion1.vo
 L0 31
-Z8 OV;L;10.1d;51
+Z7 OV;L;10.1d;51
 r1
 31
-Z9 !s90 -work|work|Question1.vo|
-Z10 o-work work -O0
-Z11 n@question1
+Z8 !s90 -work|work|Question1.vo|
+Z9 o-work work -O0
+Z10 n@question1
 !i10b 1
+Z11 !s100 J6E3l2HeNNkQ;GJa<Gck@1
 !s85 0
-Z12 !s108 1638467431.949000
+Z12 !s108 1638897688.736000
 Z13 !s107 Question1.vo|
 !s101 -O0
 vQuestion1_vlg_check_tst
 !i10b 1
-!s100 ZlQ050]l<bm<W>7A3QEYS0
-IQ2C8OmcGEo>@2a@<Zzz^b2
-Z14 VbFgBl:nVf]ibDWGj@ZY5l1
-R4
-Z15 w1638467428
-Z16 8Question1.vt
-Z17 FQuestion1.vt
-L0 71
-R8
+!s100 OD]DX7QnWE;UDjk:3Y]6O3
+IMh<l^BVVQMRA15F75BKJO2
+VeaX5JbdKD;Mi2OKnUmKMJ2
+R3
+Z14 w1638897686
+Z15 8Question1.vt
+Z16 FQuestion1.vt
+L0 73
+R7
 r1
 !s85 0
 31
-Z18 !s108 1638467432.105000
-Z19 !s107 Question1.vt|
-Z20 !s90 -work|work|Question1.vt|
+Z17 !s108 1638897688.892000
+Z18 !s107 Question1.vt|
+Z19 !s90 -work|work|Question1.vt|
 !s101 -O0
-R10
-Z21 n@question1_vlg_check_tst
+R9
+Z20 n@question1_vlg_check_tst
 vQuestion1_vlg_sample_tst
 !i10b 1
-Z22 !s100 9YSYfhcPj8_lXiJVVaW^R0
-Z23 IDH@kV[dHm>mWBPS`;SB]X2
-Z24 Vb=khR:8XV5>^`EBY^j[QT0
-R4
+!s100 GJR1BdohSbi?ncXLB4DLa0
+I1f4CP9N0;MW1z9Od4GFF`3
+V:QKk:l<=XNX?X1]GKn`oj3
+R3
+R14
 R15
 R16
-R17
 L0 29
-R8
+R7
 r1
 !s85 0
 31
+R17
 R18
 R19
-R20
 !s101 -O0
-R10
-Z25 n@question1_vlg_sample_tst
+R9
+Z21 n@question1_vlg_sample_tst
 vQuestion1_vlg_vec_tst
-!i10b 1
-!s100 OK>;?c9BLWzKO@[9f1l]i3
-IO_3gA:[7H2mzPeSGj00M91
-Z26 V5cezemHb@:eV_JSKPZmb?0
-R4
+Z22 !s100 OK>;?c9BLWzKO@[9f1l]i3
+Z23 IO_3gA:[7H2mzPeSGj00M91
+Z24 V5cezemHb@:eV_JSKPZmb?0
+R3
+Z25 w1638882550
 R15
 R16
-R17
-Z27 L0 247
-R8
+Z26 L0 247
+R7
 r1
-!s85 0
 31
-R18
+Z27 !s108 1638882554.061000
+Z28 !s107 Question1.vt|
 R19
-R20
+R9
+Z29 n@question1_vlg_vec_tst
+!i10b 1
+!s85 0
 !s101 -O0
-R10
-Z28 n@question1_vlg_vec_tst
