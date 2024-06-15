@@ -1,2 +1,4 @@
-# DD1
- Digital Design 1 4739 4922
+# Digital Design I
+A collection of component designs for simple digital circuit components. Designed in Quartus 
+
+Gender dysphoria sucks :)
